@@ -1,5 +1,13 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  
+
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  /* opacity: 0.1; */
+  background: linear-gradient(101deg, #0F0F0F 7.93%, #060021 100%);
 }
 

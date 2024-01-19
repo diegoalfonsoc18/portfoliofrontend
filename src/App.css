@@ -1,7 +1,7 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  font-family: Poppins;
+  --Pr-Lavender: #7456FF;  
+  --White: #fff;
+  --Sr-Black: #0F0F0F
 }
 
