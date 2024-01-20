@@ -36,12 +36,20 @@ const Main = () => {
                 </div>
                 </article>
                 <article className="wrapperArticle">
-                    <h2>Hello Buds</h2>
+                    <div className="divH2">
+                        <h2>Hello Buds</h2>
+                    </div>
+                    <div className="divH1">
                     <h1 >I am <span >Diego Alfonso</span></h1>
+                    </div>
+                    <div className="divP">
                     <p>FullStack Developer</p>
+                    </div>
+                    
                     <figure className="wrapperVector">
                         <img src={vector}></img>
                     </figure>
+                    
                     <p>Web developer with experience in personal projects using HTML, CSS, JavaScript, React, and MySql. Passionate about continuous learning and staying abreast of the latest trends in web development. Committed to delivering creative and quality solutions, always eager to overcome challenges with enthusiasm and dedication. Ready to collaborate in dynamic teams and contribute to the success of innovative web projects.</p>
                     <div className="wrapperButton">
                         <button>
