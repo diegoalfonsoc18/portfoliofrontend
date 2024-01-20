@@ -1,12 +1,39 @@
 import "./main.css"
 import vector from "../../img/vector-1.svg"
 import imgButton from "../../img/p.svg"
+import form from "../../img/form.svg"
+import diego from "../../img/DiegoDev.png"
+import linkedin from "../../icon/icons8-linkedin.svg"
+import discord from "../../icon/discord.png"
+import github from "../../icon/github (1).png"
+
+
+
 const Main = () => {
     return (
         <main>
             <section className="ContainerMain">
                 <article className="wrapperFigure">
-                <figure></figure>
+                <figure className="figureWrapper">
+                    <div className="wrapperForm">
+                    <img className="imgForm" src={form}></img>
+                    </div>
+                    <div className="wrapperImgDev">
+                    <img className="imgDev" src={diego} ></img>
+                    </div>
+                </figure>
+                <div className="socialIcon">
+                    <p>Find Me On</p>
+                    <div className="containerSocial">
+                        <img src={linkedin} alt="" />
+                    </div>
+                    <div className="containerSocial">
+                    <img src={discord} alt="" />
+                    </div>
+                    <div className="containerSocial">
+                    <img src={github} alt="" />
+                    </div>
+                </div>
                 </article>
                 <article className="wrapperArticle">
                     <h2>Hello Buds</h2>
