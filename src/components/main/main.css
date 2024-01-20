@@ -1,0 +1,90 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+.ContainerMain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 90%;
+    height: 100%;
+}
+
+.wrapperFigure {
+    background-color: blue;
+    height: 50vh;
+    width: 100%;
+}
+
+.wrapperArticle {
+    height: 50vh;
+    width: 100%;
+}
+
+.wrapperArticle h2 {
+    margin: 0;
+    color: var(--White);
+    font-weight: 400;
+    font-size:large;
+    padding: 5px 0;
+}
+
+.wrapperArticle h1 {
+    margin: 0;
+    font-weight: 500;
+    color: var(--White);
+    font-size:x-large;
+    padding: 5px 0;
+}
+
+h1 span {
+    color: var(--Pr-Lavender);
+}
+
+.wrapperArticle p {
+    margin: 0;
+        color: var(--Sr-Grey);
+        padding: 5px 0;
+}
+
+
+.wrapperVector  {
+    padding: 5px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.wrapperButton {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    align-items: center;
+    
+}
+
+.wrapperButton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px;
+    width: 50%;
+    height: 2.5rem;
+    background-color: var(--Pr-Lavender);
+    border-radius: 5px;
+    background: var(--Pr-Lavender, #7456FF);
+}
+
+.wrapperButton p {
+    color: var(--White);
+}
+
+
