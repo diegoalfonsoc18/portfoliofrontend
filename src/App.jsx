@@ -1,14 +1,15 @@
 
 import './App.css'
-import Nav from './components/navbar/index'
+
 import Main from './components/main'
+import Projects from './components/projects'
 function App() {
   
 
   return (
     <>
-    <Nav/>
     <Main/>
+    <Projects/>
     </>
   )
 }
