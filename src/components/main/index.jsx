@@ -8,46 +8,11 @@ import diego from "../../img/DiegoDev.png";
 import linkedin from "../../icon/icons8-linkedin.svg";
 import discord from "../../icon/discord.png";
 import github from "../../icon/github (1).png";
-import iconMobile from "../../icon/menuMobile.png";
 
 const Main = () => {
-  const [menuVisible, setmenuvisible] = useState(false);
-
   return (
     <main className="WrapperMain">
       <section className="ContainerMain">
-        <nav className="wrapperNav">
-          <div className="containerNav">
-            <div className="logoNav">
-              <p>Diego</p>
-              <p>Dev</p>
-            </div>
-            <div className="menuNav">
-              <ul className="itemsNav">
-                <li>About</li>
-                <li>Projects</li>
-                <li>Skills</li>
-              </ul>
-              <button className="buttonNav">Contact me</button>
-            </div>
-            <div
-              className="MenuMobile"
-              onClick={() => {
-                setmenuvisible(!menuVisible);
-              }}>
-              <img className="iconMobile" src={iconMobile}></img>
-            </div>
-          </div>
-          {menuVisible && (
-            <div className="containerMenuMobile">
-              <ul className="itemMenuMobile">
-                <li>About</li>
-                <li>Projects</li>
-                <li>Skills</li>
-              </ul>
-            </div>
-          )}
-        </nav>
         <div className="ContainerMainAll">
           <article className="wrapperFigure">
             <figure className="figureWrapper">
@@ -98,7 +63,6 @@ const Main = () => {
             <figure className="wrapperVector">
               <img src={vector}></img>
             </figure>
-
             <p>
               Web developer with experience in personal projects using HTML,
               CSS, JavaScript, React, and MySql. Passionate about continuous

@@ -1,17 +1,16 @@
+import "./App.css";
+import Main from "./components/main";
+import Projects from "./components/projects";
+import Nav from "./components/navbar";
 
-import './App.css'
-
-import Main from './components/main'
-import Projects from './components/projects'
 function App() {
-  
-
   return (
     <>
-    <Main/>
-    <Projects/>
+      <Nav />
+      <Main />
+      <Projects />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
