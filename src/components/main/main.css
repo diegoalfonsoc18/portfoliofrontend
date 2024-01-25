@@ -196,7 +196,7 @@ h1 span {
   .ContainerMain {
     justify-content: center;
     align-items: center;
-    height: 70%;
+    height: 100%;
   }
 
   .ContainerMainAll {
@@ -270,6 +270,7 @@ h1 span {
 
   .ContainerMain {
     width: 50%;
+    height: 100%;
   }
 
   .containerNav {
@@ -277,6 +278,6 @@ h1 span {
   }
 
   .ContainerMainAll {
-    height: 50%;
+    height: 80%;
   }
 }

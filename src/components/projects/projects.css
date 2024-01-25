@@ -1,23 +1,41 @@
-
-
 main {
-
-    width: 100%;
-    height: 400px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
 }
 
 .mainSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 90%;
-    background-color: aquamarine;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  background-color: aquamarine;
+}
+.wrapperTittleProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 article h3 {
-    color: var(--White);
-    font-weight: 500;
-    font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--White);
+  font-weight: 500;
+  font-size: x-large;
+  height: 40px;
+}
+
+.wrapperSlider {
+  background-color: azure;
+  width: 100%;
+  height: 100%;
+}
+
+.containerslider {
+  background-color: blueviolet;
 }
