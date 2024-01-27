@@ -1,5 +1,4 @@
-import { useState } from "react";
-
+import React from "react";
 import "./main.css";
 import vector from "../../img/vector-1.svg";
 import imgButton from "../../img/p.svg";
@@ -10,6 +9,8 @@ import discord from "../../icon/discord.png";
 import github from "../../icon/github (1).png";
 
 const Main = () => {
+  const cvPath = "/files/CV_DiegoLeonelAlfonso_EN.pdf";
+
   return (
     <main className="WrapperMain">
       <section className="ContainerMain">
@@ -17,10 +18,10 @@ const Main = () => {
           <article className="wrapperFigure">
             <figure className="figureWrapper">
               <div className="wrapperForm">
-                <img className="imgForm" src={form}></img>
+                <img className="imgForm" src={form} alt="Form Image" />
               </div>
               <div className="wrapperImgDev">
-                <img className="imgDev" src={diego}></img>
+                <img className="imgDev" src={diego} alt="Diego Image" />
               </div>
             </figure>
             <div className="socialIcon">
@@ -28,21 +29,25 @@ const Main = () => {
               <div className="containerSocial">
                 <a
                   href="https://www.linkedin.com/in/diego-alfonso-castillo/"
-                  target="_blanck">
-                  <img src={linkedin} alt="" />
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <img src={linkedin} alt="LinkedIn Icon" />
                 </a>
               </div>
               <div className="containerSocial">
                 <a
-                  href="discord.com/channels/984941402783895642"
-                  target="_blanck">
-                  <img src={discord} alt="icon discord" />
+                  href="https://discord.com/channels/984941402783895642"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <img src={discord} alt="Discord Icon" />
                 </a>
               </div>
-
               <div className="containerSocial">
-                <a href="https://github.com/diegoalfonsoc18" target="_blanck">
-                  <img src={github} alt="" />
+                <a
+                  href="https://github.com/diegoalfonsoc18"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <img src={github} alt="GitHub Icon" />
                 </a>
               </div>
             </div>
@@ -59,9 +64,8 @@ const Main = () => {
             <div className="divP">
               <p>FullStack Developer</p>
             </div>
-
             <figure className="wrapperVector">
-              <img src={vector}></img>
+              <img src={vector} alt="Vector Image" />
             </figure>
             <p>
               Web developer with experience in personal projects using HTML,
@@ -72,12 +76,16 @@ const Main = () => {
               dedication. Ready to collaborate in dynamic teams and contribute
               to the success of innovative web projects.
             </p>
-            <div className="wrapperButton">
+            <a
+              href={cvPath}
+              className="wrapperButton"
+              target="_blanck"
+              download="CV_DiegoLeonelAlfonso_EN.pdf">
               <button>
-                <img src={imgButton}></img>
+                <img src={imgButton} alt="Download Icon" />
                 <p>Download CV</p>
               </button>
-            </div>
+            </a>
           </article>
         </div>
       </section>
